@@ -12,7 +12,7 @@ jobs:
     environment: testing
     runs-on: ubuntu-latest
     container:
-      image: node:20
+      image: node:22
     env:
       MONGODB_CONNECTION_PROTOCOL: mongodb
       MONGODB_CLUSTER_ADDRESS: mongodb # services label
